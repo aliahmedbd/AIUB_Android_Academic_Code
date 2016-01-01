@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="7" 
+    android:background="@drawable/buyairtime"
+    >
+
+    <TextView 
+        android:text=""
+        android:layout_width="fill_parent"
+    
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+        />
+    <TextView
+        android:text="" 
+        android:layout_width="fill_parent"
+    
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" 
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:weightSum="6"
+        >
+				
+	<TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+    <TextView 
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_prepaid"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        
+        android:text="@string/prepaid" 
+        android:background="#ce2283"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:layout_weight="3"
+
+        />
+    </TableRow>
+
+	
+	<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+    <TextView 
+        android:layout_weight="1"/>
+	
+	
+	<Button
+        android:id="@+id/btn_postpaid"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/postpaid" 
+        android:background="#ce2283"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:layout_weight="3"
+        />
+	</TableRow>
+		
+	
+	
+	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+    <TextView 
+        android:layout_weight="1"/>
+	
+	
+	<Button
+        android:id="@+id/btn_mainmenu"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mainmenu" 
+        android:background="#ce2283"
+        android:textColor="#ffffff"
+        android:onClick="onClick"
+        android:layout_weight="3"
+        />
+    </TableRow>
+	
+	
+	
+</TableLayout>
+
+<TextView
+        android:text=""
+        android:layout_width="fill_parent"
+     
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>

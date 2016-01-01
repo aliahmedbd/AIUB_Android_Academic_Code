@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Ali%20Ahmed/AndroidStudioProjects/bKash2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="agent_wallet">Agent Wallet No:</string>
+    <string name="airtel">Airtel</string>
+    <string name="amount">Amount:</string>
+    <string name="app_name">BKash</string>
+    <string name="banglalink">Banglalink</string>
+    <string name="buy_airtime">Buy Airtime</string>
+    <string name="cancel">Reset</string>
+    <string name="cash_out">Cash Out</string>
+    <string name="changeatmpin">Change ATM PIN</string>
+    <string name="changemobilepin">Change Mobile PIN</string>
+    <string name="checkbalance">Check Balance</string>
+    <string name="enter_number">Enter Number:</string>
+    <string name="enter_reference">Enter Reference:</string>
+    <string name="gp">Grameenphone</string>
+    <string name="hello">Hello World, BKashActivity!</string>
+    <string name="help_line">Help Line</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="merchant">Enter Merchant bKash Wallet no:</string>
+    <string name="mobileNo">Enter Mobile Number:</string>
+    <string name="my_bkash">My bKash</string>
+    <string name="ok">Okay</string>
+    <string name="optional">optional</string>
+    <string name="payment">Payment</string>
+    <string name="pin">PIN:</string>
+    <string name="postpaid">Post-Paid</string>
+    <string name="prepaid">Pre-Paid</string>
+    <string name="reqstatement">Request Statement</string>
+    <string name="robi">Robi</string>
+    <string name="send">Send</string>
+    <string name="send_money">Send Money</string>
+    <string name="submit">Submit</string>
+    <string name="taka">Taka</string>
+    <string name="website">bKash Website</string>
+</resources>

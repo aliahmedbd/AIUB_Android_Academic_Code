@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Ali%20Ahmed/AndroidStudioProjects/bKash2/app/src/main/res/values-bn/strings.xml -->
+    <eat-comment/>
+    <string name="agent_wallet">এজেন্ট ওয়ালেট নাম্বার:</string>
+    <string name="airtel">এয়ারটেল</string>
+    <string name="amount">টাকার পরিমাণ:</string>
+    <string name="app_name">বিকাশ</string>
+    <string name="banglalink">বাংলালিঙ্ক</string>
+    <string name="buy_airtime">এয়ারটাইম ক্রয়</string>
+    <string name="cancel">পরিত্যাগ</string>
+    <string name="cash_out">টাকা উঠান</string>
+    <string name="changeatmpin">এটিএম পিন পরিবর্তন</string>
+    <string name="changemobilepin">মোবাইল পিন পরিবর্তন</string>
+    <string name="checkbalance">ব্যালেন্স জানুন</string>
+    <string name="enter_number">নাম্বার:</string>
+    <string name="enter_reference">প্রসঙ্গ</string>
+    <string name="gp">গ্রামীণফোন</string>
+    <string name="hello">Hello World, BKashActivity!</string>
+    <string name="help_line">সাহায্য</string>
+    <string name="mainmenu">প্রধান তালিকা</string>
+    <string name="merchant">মার্চেন্ট বিকাশের ওয়ালেট নম্বরঃ</string>
+    <string name="mobileNo">নম্বর প্রবেশ করুন:</string>
+    <string name="my_bkash">আমার বিকাশ</string>
+    <string name="ok">সম্পন্ন</string>
+    <string name="optional">জরুরী নয়</string>
+    <string name="payment">টাকা প্রদান</string>
+    <string name="pin">পিন কোড:</string>
+    <string name="postpaid">পোস্ট-পেইড</string>
+    <string name="prepaid">প্রি-প্রেইড</string>
+    <string name="reqstatement">বিবৃতি অনুরোধ</string>
+    <string name="robi">রবি</string>
+    <string name="send">পাঠান</string>
+    <string name="send_money">টাকা পাঠান</string>
+    <string name="submit">জমা</string>
+    <string name="taka">টাকা</string>
+    <string name="website">বিকাশ ওয়েবসাইট</string>
+</resources>

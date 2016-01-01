@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@android:color/holo_orange_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="20dp"
+        android:touchscreenBlocksFocus="false"
+        style="@android:style/Animation.InputMethod"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robi"
+            android:id="@+id/btnRobi"
+            android:onClick="onClick"
+            android:background="#ffff6070"
+            android:layout_below="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp"
+            android:layout_alignRight="@+id/btnTeletalk"
+            android:layout_alignEnd="@+id/btnTeletalk" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banglalink"
+            android:id="@+id/btnBanglalink"
+            android:onClick="onClick"
+            android:background="#ffffa516"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btnTeletalk"
+            android:layout_alignEnd="@+id/btnTeletalk"
+            android:layout_alignLeft="@+id/btnRobi"
+            android:layout_alignStart="@+id/btnRobi" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grameen Phone"
+            android:id="@+id/btnGrameen"
+            android:onClick="onClick"
+            android:background="#ffd4d6ff"
+            android:layout_below="@+id/btnRobi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teletalk"
+            android:id="@+id/btnTeletalk"
+            android:onClick="onClick"
+            android:background="#ff0fff07"
+            android:layout_below="@+id/btnGrameen"
+            android:layout_alignLeft="@+id/btnGrameen"
+            android:layout_alignStart="@+id/btnGrameen"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_airtel"
+            android:id="@+id/button"
+            android:onClick="onClick"
+            android:background="#ffff0c18"
+            android:layout_below="@+id/btnBanglalink"
+            android:layout_alignLeft="@+id/btnBanglalink"
+            android:layout_alignStart="@+id/btnBanglalink"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp"
+            android:layout_alignRight="@+id/btnBanglalink"
+            android:layout_alignEnd="@+id/btnBanglalink" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ali Ahmed\nAIUB"
+            android:id="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

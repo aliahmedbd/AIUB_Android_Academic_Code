@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Ali%20Ahmed/AndroidStudioProjects/Web%20Calculator/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Web Calculator</string>
+    <string name="hello">Hello World, WebCalculatorActivity!</string>
+</resources>

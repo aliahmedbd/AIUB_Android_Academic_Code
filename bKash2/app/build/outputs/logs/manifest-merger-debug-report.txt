@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+application
+ADDED from AndroidManifest.xml:12:5
+	android:label
+		ADDED from AndroidManifest.xml:14:9
+	android:icon
+		ADDED from AndroidManifest.xml:13:9
+activity#mni.bkash.application.BKashActivity
+ADDED from AndroidManifest.xml:15:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:18:13
+	android:label
+		ADDED from AndroidManifest.xml:17:13
+	android:name
+		ADDED from AndroidManifest.xml:16:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:21:17
+	android:name
+		ADDED from AndroidManifest.xml:21:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:27
+activity#mni.bkash.application.SendMoney
+ADDED from AndroidManifest.xml:26:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:29:13
+	android:label
+		ADDED from AndroidManifest.xml:28:13
+	android:name
+		ADDED from AndroidManifest.xml:27:13
+intent-filter#android.intent.action.SendMoney+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:30:13
+action#android.intent.action.SendMoney
+ADDED from AndroidManifest.xml:31:17
+	android:name
+		ADDED from AndroidManifest.xml:31:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:33:17
+	android:name
+		ADDED from AndroidManifest.xml:33:27
+activity#mni.bkash.application.mybkash
+ADDED from AndroidManifest.xml:36:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:39:13
+	android:label
+		ADDED from AndroidManifest.xml:38:13
+	android:name
+		ADDED from AndroidManifest.xml:37:13
+intent-filter#android.intent.action.mybkash+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:40:13
+action#android.intent.action.mybkash
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:25
+activity#mni.bkash.application.cashout
+ADDED from AndroidManifest.xml:46:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:49:13
+	android:label
+		ADDED from AndroidManifest.xml:48:13
+	android:name
+		ADDED from AndroidManifest.xml:47:13
+intent-filter#android.intent.action.cashout+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:50:13
+action#android.intent.action.cashout
+ADDED from AndroidManifest.xml:51:17
+	android:name
+		ADDED from AndroidManifest.xml:51:25
+activity#mni.bkash.application.buyairtime
+ADDED from AndroidManifest.xml:56:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:59:13
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:name
+		ADDED from AndroidManifest.xml:57:13
+intent-filter#android.intent.action.buyairtme+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:60:13
+action#android.intent.action.buyairtme
+ADDED from AndroidManifest.xml:61:17
+	android:name
+		ADDED from AndroidManifest.xml:61:25
+activity#mni.bkash.application.MenuPin
+ADDED from AndroidManifest.xml:65:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:68:13
+	android:label
+		ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:66:13
+intent-filter#android.intent.action.menupin+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:69:13
+action#android.intent.action.menupin
+ADDED from AndroidManifest.xml:70:17
+	android:name
+		ADDED from AndroidManifest.xml:70:25
+activity#mni.bkash.application.Merchant
+ADDED from AndroidManifest.xml:75:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:78:13
+	android:label
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+intent-filter#android.intent.action.merchant+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:79:13
+action#android.intent.action.merchant
+ADDED from AndroidManifest.xml:80:17
+	android:name
+		ADDED from AndroidManifest.xml:80:25
+activity#mni.bkash.application.PrePost
+ADDED from AndroidManifest.xml:85:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:88:13
+	android:label
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+intent-filter#android.intent.action.prepost+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:89:13
+action#android.intent.action.prepost
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:25
+activity#mni.bkash.application.Payment
+ADDED from AndroidManifest.xml:95:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:98:13
+	android:label
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+intent-filter#android.intent.action.payment+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:99:13
+action#android.intent.action.payment
+ADDED from AndroidManifest.xml:100:17
+	android:name
+		ADDED from AndroidManifest.xml:100:25
+activity#mni.bkash.application.HelpLine
+ADDED from AndroidManifest.xml:105:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:108:13
+	android:label
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+intent-filter#android.intent.action.helpline+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:109:13
+action#android.intent.action.helpline
+ADDED from AndroidManifest.xml:110:17
+	android:name
+		ADDED from AndroidManifest.xml:110:25
+activity#mni.bkash.application.NumberInput
+ADDED from AndroidManifest.xml:115:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:118:13
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+intent-filter#android.intent.action.numberInput+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:119:13
+action#android.intent.action.numberInput
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25

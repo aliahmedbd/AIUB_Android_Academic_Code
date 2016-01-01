@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="9" 
+    android:background="@drawable/sendmoney"
+    >
+
+    <TextView 
+        android:text=""
+        android:layout_width="fill_parent"
+    
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        
+        />
+    <TextView
+        android:text="" 
+        android:layout_width="fill_parent"
+    
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical" 
+    android:layout_height="0dp"
+    android:layout_weight="7"
+    android:weightSum="9"
+        >
+				
+	<TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" 
+        android:weightSum="5"
+        >
+    <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+        
+     <TextView
+         android:id="@+id/lbl_enternumber" 
+         android:text="@string/enter_number"
+         android:textColor="#ce2283"
+         android:textSize="18sp"
+         android:layout_weight="3"/>
+    </TableRow>
+	
+	<TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+
+     <EditText
+         android:id="@+id/txt_enternumber"
+         android:layout_height="35dp"
+         android:layout_weight="2.5"
+         android:hint="01*********"
+         android:inputType="phone"
+         android:textColor="#ce2283"
+         android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_height="28dp"
+            android:layout_weight="0.5"
+            android:layout_margin="0dp"
+            android:text="..."
+            android:background="#ce2283"
+            android:textColor="#ffffff"
+            android:onClick="onClick"
+            android:textSize="15sp"
+            />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+        
+     <TextView
+         android:id="@+id/lbl_amount" 
+         android:text="@string/amount"
+         android:textColor="#ce2283"
+         android:textSize="18sp"
+         android:gravity="top"
+         android:layout_weight="3"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+     <EditText
+         android:id="@+id/txt_amount"
+         android:layout_height="35dp"
+         android:textColor="#ce2283"
+         android:textSize="15sp"
+         android:hint="@string/taka"
+         android:inputType="numberDecimal"
+         android:layout_weight="3"
+         />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+        
+     <TextView
+         android:id="@+id/lbl_enterreference" 
+         android:text="@string/enter_reference"
+         android:textColor="#ce2283"
+         android:textSize="18sp"
+         android:layout_weight="3"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+     <EditText
+         android:id="@+id/txt_enterreference"
+         android:layout_height="35dp"
+         android:textColor="#ce2283"
+         android:textSize="15sp"
+         android:hint="@string/optional"
+         android:inputType="phone"
+         android:layout_weight="3"
+         />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp" 
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+        
+     <TextView
+         android:id="@+id/lbl_pin" 
+         android:text="@string/pin"
+         android:textColor="#ce2283"
+         android:textSize="18sp"
+         android:layout_weight="3"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="5"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+     <EditText
+         android:id="@+id/txt_pin"
+         android:layout_height="35dp"
+         android:textColor="#ce2283"
+         android:textSize="15sp"
+         android:hint="*********"
+         android:inputType="textPassword"
+
+         android:layout_weight="3"
+         />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:weightSum="7"
+        >
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+     <Button 
+         android:id="@+id/btn_cancel"
+         android:layout_width="0dp"
+         android:layout_height="40dp"
+         android:background="#ce2283"
+         android:textColor="#ffffff"
+         android:text="@string/cancel"
+         android:onClick="onClick"
+        android:layout_weight="2"
+         />
+     <TextView
+        android:text="" 
+        android:layout_width="0dp" 
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+     
+     
+     <Button 
+         android:id="@+id/btn_send"
+         android:layout_width="0dp"
+         android:layout_height="40dp"
+         android:background="#ce2283"
+         android:textColor="#ffffff"
+         android:text="@string/send"
+         android:onClick="onClick"
+         android:layout_weight="2"
+        
+         />
+    </TableRow>
+
+	
+</TableLayout>
+
+<TextView
+        android:text=""
+        android:layout_width="fill_parent"
+     
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+</LinearLayout><!-- From: file:/C:/Users/Ali%20Ahmed/AndroidStudioProjects/bKash2/app/src/main/res/layout/sendmoney.xml -->
